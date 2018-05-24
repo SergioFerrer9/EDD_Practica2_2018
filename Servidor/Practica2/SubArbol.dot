@@ -1,0 +1,26 @@
+digraph g {
+ node [
+fontsize = "10"
+shape = "Mrecord"
+style ="filled, bold"
+];
+
+ subgraph cluster_1 {
+node [style=filled];
+"nodo65"[ label="<C0>| Carne: 200565009&#92;nNombre: lopez&#92;nNota: 60.3|<C1>"];
+"nodo67"[ label="<C0>| Carne: 200563009&#92;nNombre: lopez ruiz&#92;nNota: 64.3|<C1>"];
+"nodo68"[ label=" Carne: 200462009&#92;nNombre: Ruiz luna&#92;nNota: 30.75"];
+nodo67:C0->nodo68
+nodo65:C0->nodo67
+"nodo63"[ label="<C0>| Carne: 200765009&#92;nNombre: Ferrer&#92;nNota: 80.5|<C1>"];
+"nodo64"[ label=" Carne: 200665009&#92;nNombre: perez&#92;nNota: 70"];
+nodo63:C0->nodo64
+"nodo62"[ label=" Carne: 200865009&#92;nNombre: Antonio Ruiz&#92;nNota: 50.75"];
+nodo63:C1->nodo62
+nodo65:C1->nodo63
+fontsize = "12"
+shape = "Mrecord"
+color="orange"
+style ="filled, bold"
+}
+}

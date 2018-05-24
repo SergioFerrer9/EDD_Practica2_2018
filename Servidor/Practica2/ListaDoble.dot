@@ -1,0 +1,30 @@
+digraph g {
+ node [
+fontsize = "10"
+shape = "Mrecord"
+style ="filled, bold"
+];
+
+ subgraph cluster_1 {
+node [style=filled];
+"nodoD1"
+[ label=" ID: 1&#92;nNombre: Entrada&#92;nHora: 19:48:53&#92;nFecha: 13:04:2018"];
+"nodoD2"
+[ label=" ID: 2&#92;nNombre: entrada1&#92;nHora: 19:48:56&#92;nFecha: 13:04:2018",fillcolor=cyan ];
+"nodoD3"
+[ label=" ID: 3&#92;nNombre: Entrada1&#92;nHora: 19:49:00&#92;nFecha: 13:04:2018"];
+"nodoD4"
+[ label=" ID: 4&#92;nNombre: Entrada2&#92;nHora: 19:49:03&#92;nFecha: 13:04:2018"];
+"nodoD1"-> "nodoD2";
+"nodoD2"-> "nodoD1";
+"nodoD2"-> "nodoD3";
+"nodoD3"-> "nodoD2";
+"nodoD3"-> "nodoD4";
+"nodoD4"-> "nodoD3";
+fontsize = "10"
+shape = "Mrecord"
+color="orange"
+style ="filled, bold"
+label ="Lista Doble"
+}
+}

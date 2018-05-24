@@ -1,0 +1,12 @@
+digraph g {
+node [
+fontsize = "10"
+shape = "Mrecord"
+];
+
+subgraph cluster_1 {
+node [style=filled];
+"nodoB73" [label="200065009&#92;nNivel:0"];
+color="orange"
+style ="filled, bold"
+label ="Nombre: Entrada4&#92;nNivel: 0&#92;nAltura: 1&#92;nRamas: 0&#92;nNodos Padres: 0&#92;nNodos Hojas: 1"}}

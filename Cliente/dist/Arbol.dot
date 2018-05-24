@@ -1,0 +1,18 @@
+digraph g {
+node [
+fontsize = "10"
+shape = "Mrecord"
+];
+
+subgraph cluster_1 {
+node [style=filled];
+"nodoB69" [label="<C0>|200065003&#92;nNivel:0|<C1>"];
+"nodoB70" [label="200065001&#92;nNivel:1"];
+nodoB69:C0->nodoB70;
+"nodoB71" [label="<C0>|200065012&#92;nNivel:1|<C1>"];
+"nodoB72" [label="200065011&#92;nNivel:2"];
+nodoB71:C0->nodoB72;
+nodoB69:C1->nodoB71;
+color="orange"
+style ="filled, bold"
+label ="Nombre: Entrada2&#92;nNivel: 2&#92;nAltura: 3&#92;nRamas: 3&#92;nNodos Padres: 2&#92;nNodos Hojas: 2"}}

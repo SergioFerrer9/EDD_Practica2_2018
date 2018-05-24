@@ -1,0 +1,26 @@
+digraph g {
+node [
+fontsize = "10"
+shape = "Mrecord"
+];
+
+subgraph cluster_1 {
+node [style=filled];
+"nodoD1"
+[label="ID:1&#92;n Nombre:Entrada"];
+"nodoD2"
+[label="ID:2&#92;n Nombre:entrada1"];
+"nodoD3"
+[label="ID:3&#92;n Nombre:Entrada1"];
+"nodoD4"
+[label="ID:4&#92;n Nombre:Entrada2"];
+"nodoD1"->"nodoD2";
+"nodoD2"->"nodoD1";
+"nodoD2"->"nodoD3";
+"nodoD3"->"nodoD2";
+"nodoD3"->"nodoD4";
+"nodoD4"->"nodoD3";
+color="orange"
+style ="filled, bold"
+label ="Lista de Arboles"
+}}

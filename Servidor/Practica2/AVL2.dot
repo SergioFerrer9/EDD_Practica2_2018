@@ -1,0 +1,114 @@
+digraph g {
+ node [
+fontsize = "10"
+shape = "Mrecord"
+style ="filled, bold"
+];
+
+ subgraph cluster_1 {
+node [style=filled];
+"nodo40"[ label="<C0>| Carne: 201314798&#92;nNombre: Jos� Alejandro Urbina Ram�rez&#92;nNota: 32.9|<C1>"];
+"nodo24"[ label="<C0>| Carne: 201114496&#92;nNombre: German Mazariegos Salguero&#92;nNota: 45.9|<C1>"];
+"nodo16"[ label="<C0>| Carne: 200819036&#92;nNombre: Luis Eduardo Garcia Hernandez&#92;nNota: 88|<C1>"];
+"nodo12"[ label="<C0>| Carne: 200212610&#92;nNombre: Sergio Rene Barillas&#92;nNota: 60.7|<C1>"];
+"nodo10"[ label="<C0>| Carne: 199817948&#92;nNombre: Alvaro Humberto Garcia Olivarez&#92;nNota: 21|<C1>"];
+"nodo9"[ label=" Carne: 9331199&#92;nNombre: Luis Fernando Dom�nguez Lobos&#92;nNota: 61.7"];
+nodo10:C0->nodo9
+"nodo11"[ label=" Carne: 200113057&#92;nNombre: Mario Augusto Pineda Morales&#92;nNota: 37.1"];
+nodo10:C1->nodo11
+nodo12:C0->nodo10
+"nodo14"[ label="<C0>| Carne: 200815180&#92;nNombre: Gustavo Siney&#92;nNota: 73.7|<C1>"];
+"nodo13"[ label=" Carne: 200312778&#92;nNombre: Jose Miguel Vargas Bautista&#92;nNota: 34"];
+nodo14:C0->nodo13
+"nodo15"[ label=" Carne: 200815533&#92;nNombre: Carlos Alberto Avalos P�rez&#92;nNota: 92"];
+nodo14:C1->nodo15
+nodo12:C1->nodo14
+nodo16:C0->nodo12
+"nodo20"[ label="<C0>| Carne: 200915715&#92;nNombre: Edgar Enrique Patzan Yoc&#92;nNota: 59|<C1>"];
+"nodo18"[ label="<C0>| Carne: 200915305&#92;nNombre: Sergio Alfonso Ferrer Garcia&#92;nNota: 70.2|<C1>"];
+"nodo17"[ label=" Carne: 200819074&#92;nNombre: Christian Armando Esquite Hern�ndez&#92;nNota: 45.2"];
+nodo18:C0->nodo17
+"nodo19"[ label=" Carne: 200915652&#92;nNombre: Edy Danilo Paz Cardenas&#92;nNota: 73.9"];
+nodo18:C1->nodo19
+nodo20:C0->nodo18
+"nodo22"[ label="<C0>| Carne: 201020621&#92;nNombre: Yesus Rudy Espinoza&#92;nNota: 16.4|<C1>"];
+"nodo21"[ label=" Carne: 201020447&#92;nNombre: Willy Rene Suruy Subuyuj&#92;nNota: 32.3"];
+nodo22:C0->nodo21
+"nodo23"[ label=" Carne: 201020787&#92;nNombre: Freddy Alejandro Molina Reyes&#92;nNota: 79.1"];
+nodo22:C1->nodo23
+nodo20:C1->nodo22
+nodo16:C1->nodo20
+nodo24:C0->nodo16
+"nodo32"[ label="<C0>| Carne: 201313894&#92;nNombre: Carlos Arnoldo L�pez Coroy&#92;nNota: 88.3|<C1>"];
+"nodo28"[ label="<C0>| Carne: 201213223&#92;nNombre: Astrid Edith Hern�ndez Gonz�lez&#92;nNota: 36.7|<C1>"];
+"nodo26"[ label="<C0>| Carne: 201212802&#92;nNombre: Leonel Alejandro Zamora Hernandez&#92;nNota: 58.6|<C1>"];
+"nodo25"[ label=" Carne: 201114771&#92;nNombre: Otoniel Alexander Hernandez Arias&#92;nNota: 92.7"];
+nodo26:C0->nodo25
+"nodo27"[ label=" Carne: 201213197&#92;nNombre: Mynor Ceferino Rompiche Herrera&#92;nNota: 13.3"];
+nodo26:C1->nodo27
+nodo28:C0->nodo26
+"nodo30"[ label="<C0>| Carne: 201313741&#92;nNombre: Darwin Leonel Ram�rez Alvarez&#92;nNota: 96.9|<C1>"];
+"nodo29"[ label=" Carne: 201213487&#92;nNombre: Vania Gared Argueta Rodr�guez&#92;nNota: 30.9"];
+nodo30:C0->nodo29
+"nodo31"[ label=" Carne: 201313875&#92;nNombre: Hayrton Omar Ixpat� Coloch&#92;nNota: 19.3"];
+nodo30:C1->nodo31
+nodo28:C1->nodo30
+nodo32:C0->nodo28
+"nodo36"[ label="<C0>| Carne: 201314160&#92;nNombre: Luis Manuel Morales L�pez&#92;nNota: 69.3|<C1>"];
+"nodo34"[ label="<C0>| Carne: 201314079&#92;nNombre: Brandon Enrique Pedroza Ochoa&#92;nNota: 97.7|<C1>"];
+"nodo33"[ label=" Carne: 201313958&#92;nNombre: Jose Pablo Valiente Montes&#92;nNota: 28.6"];
+nodo34:C0->nodo33
+"nodo35"[ label=" Carne: 201314128&#92;nNombre: Kevin Alexander Duarte Barrios&#92;nNota: 31.1"];
+nodo34:C1->nodo35
+nodo36:C0->nodo34
+"nodo38"[ label="<C0>| Carne: 201314489&#92;nNombre: Manuel Fernando Chojolan Hernandez&#92;nNota: 74.9|<C1>"];
+"nodo37"[ label=" Carne: 201314439&#92;nNombre: Henrry David Bran Velasquez&#92;nNota: 10.5"];
+nodo38:C0->nodo37
+"nodo39"[ label=" Carne: 201314735&#92;nNombre: Alejandro Jjosep Xavier L�pez Castillo&#92;nNota: 82.5"];
+nodo38:C1->nodo39
+nodo36:C1->nodo38
+nodo32:C1->nodo36
+nodo24:C1->nodo32
+nodo40:C0->nodo24
+"nodo48"[ label="<C0>| Carne: 201403632&#92;nNombre: Jorge David Espina Molina&#92;nNota: 91.3|<C1>"];
+"nodo44"[ label="<C0>| Carne: 201325674&#92;nNombre: Hellen Alexandra Lacan Hernandez&#92;nNota: 20.2|<C1>"];
+"nodo42"[ label="<C0>| Carne: 201325512&#92;nNombre: Daniel Enrique Santos Godoy&#92;nNota: 34.4|<C1>"];
+"nodo41"[ label=" Carne: 201314821&#92;nNombre: Melyza Alejandra Rodr�guez Contreras&#92;nNota: 14.8"];
+nodo42:C0->nodo41
+"nodo43"[ label=" Carne: 201325533&#92;nNombre: Erick Fernando Elias Diaz&#92;nNota: 85.9"];
+nodo42:C1->nodo43
+nodo44:C0->nodo42
+"nodo46"[ label="<C0>| Carne: 201403546&#92;nNombre: Josu� Carlos P�rez Montenegro&#92;nNota: 80|<C1>"];
+"nodo45"[ label=" Carne: 201403532&#92;nNombre: Ever Eduardo Chicas Prado&#92;nNota: 69.1"];
+nodo46:C0->nodo45
+"nodo47"[ label=" Carne: 201403566&#92;nNombre: Joaqu�n Abraham Arriola Jelkmann&#92;nNota: 9.3"];
+nodo46:C1->nodo47
+nodo44:C1->nodo46
+nodo48:C0->nodo44
+"nodo52"[ label="<C0>| Carne: 201403907&#92;nNombre: Marlon Javier Cabrera Montenegro&#92;nNota: 52.2|<C1>"];
+"nodo50"[ label="<C0>| Carne: 201403808&#92;nNombre: Marilyn Violeta Lopez Hernandez&#92;nNota: 66.1|<C1>"];
+"nodo49"[ label=" Carne: 201403704&#92;nNombre: Jimmy Alexander Lopez Lopez&#92;nNota: 31.7"];
+nodo50:C0->nodo49
+"nodo51"[ label=" Carne: 201403861&#92;nNombre: Brian Isaac Vasquez Juarez&#92;nNota: 87.4"];
+nodo50:C1->nodo51
+nodo52:C0->nodo50
+"nodo56"[ label="<C0>| Carne: 201404106&#92;nNombre: Fernando Alberto Ambrosio Alem�n&#92;nNota: 84.4|<C1>"];
+"nodo54"[ label="<C0>| Carne: 201404047&#92;nNombre: Brian Alexander Sanchez Muralles&#92;nNota: 65|<C1>"];
+"nodo53"[ label=" Carne: 201404006&#92;nNombre: Oscar Alejandro Rodr�guez Calder�n&#92;nNota: 13.4"];
+nodo54:C0->nodo53
+"nodo55"[ label=" Carne: 201404082&#92;nNombre: Fernando Jos� Paz Gonz�lez&#92;nNota: 29.8"];
+nodo54:C1->nodo55
+nodo56:C0->nodo54
+"nodo57"[ label="<C0>| Carne: 201404179&#92;nNombre: Jurgen Andoni Ramirez Ram�rez&#92;nNota: 10.8|<C1>"];
+"nodo58"[ label=" Carne: 201404215&#92;nNombre: Jorge Luis Salazar Peralta&#92;nNota: 73.6"];
+nodo57:C1->nodo58
+nodo56:C1->nodo57
+nodo52:C1->nodo56
+nodo48:C1->nodo52
+nodo40:C1->nodo48
+fontsize = "12"
+shape = "Mrecord"
+color="orange"
+style ="filled, bold"
+}
+}
